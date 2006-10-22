@@ -1,0 +1,15 @@
+usr/bin/quanta.exe
+usr/lib/kde3/quantadebuggerdbgp.dll
+usr/lib/kde3/quantadebuggerdbgp.la
+usr/lib/kde3/quantadebuggergubed.dll
+usr/lib/kde3/quantadebuggergubed.la
+usr/share/applications/kde/quanta.desktop
+usr/share/apps/kafkapart/
+usr/share/apps/quanta/
+usr/share/doc/HTML/en/quanta/
+usr/share/icons/hicolor/*/apps/quanta.png
+usr/share/mimelnk/application/x-webprj.desktop
+usr/share/services/quantadebuggerdbgp.desktop
+usr/share/services/quantadebuggergubed.desktop
+usr/share/services/quanta_preview_config.desktop
+usr/share/servicetypes/quantadebugger.desktop

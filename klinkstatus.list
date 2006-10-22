@@ -1,0 +1,11 @@
+usr/bin/klinkstatus.exe
+usr/lib/kde3/cygklinkstatuspart.dll
+usr/lib/kde3/libklinkstatuspart.la
+usr/share/applications/kde/klinkstatus.desktop
+usr/share/apps/klinkstatus/
+usr/share/apps/klinkstatuspart/
+usr/share/config.kcfg/klinkstatus.kcfg
+usr/share/doc/HTML/en/klinkstatus/
+usr/share/icons/crystalsvg/16x16/actions/bug.png
+usr/share/icons/hicolor/*/apps/klinkstatus.png
+usr/share/services/klinkstatus_part.desktop

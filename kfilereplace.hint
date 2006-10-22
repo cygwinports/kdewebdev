@@ -1,0 +1,11 @@
+category: KDE
+requires: cygwin kdelibs4 qt3
+external-source: kdewebdev
+sdesc: "KDE multiple-file search and replace tool"
+ldesc: "KDE web development suite:
+* kfilereplace: multiple-file search and replace tool
+* kimagemapeditor: image map editor
+* klinkstatus: link validity checker
+* kommander: GUI script builder and executor tool
+* kxsldbg: XSL debugger
+* quanta: web page IDE"
