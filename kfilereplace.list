@@ -1,9 +1,10 @@
 usr/bin/kfilereplace.exe
-usr/lib/kde3/cygkfilereplacepart.dll
-usr/lib/kde3/libkfilereplacepart.la
+usr/lib/kde3/*kfilereplacepart.*
 usr/share/applications/kde/kfilereplace.desktop
 usr/share/apps/kfilereplace/
 usr/share/apps/kfilereplacepart/
 usr/share/doc/HTML/en/kfilereplace/
 usr/share/icons/hicolor/*/apps/kfilereplace.png
 usr/share/services/kfilereplacepart.desktop
+usr/share/doc/Cygwin/kfilereplace-*.README
+usr/share/doc/kfilereplace-*/

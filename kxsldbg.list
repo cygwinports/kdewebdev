@@ -1,7 +1,6 @@
 usr/bin/kxsldbg.exe
 usr/bin/xsldbg.exe
-usr/lib/kde3/cygkxsldbgpart.dll
-usr/lib/kde3/libkxsldbgpart.la
+usr/lib/kde3/*kxsldbgpart.*
 usr/share/applications/kde/kxsldbg.desktop
 usr/share/apps/kxsldbg/
 usr/share/apps/kxsldbgpart/
@@ -25,3 +24,4 @@ usr/share/icons/hicolor/*/actions/xsldbg_source.png
 usr/share/icons/hicolor/*/actions/xsldbg_stepdown.png
 usr/share/icons/hicolor/*/actions/xsldbg_stepup.png
 usr/share/services/kxsldbg_part.desktop
+usr/share/doc/Cygwin/kxsldbg-*.README

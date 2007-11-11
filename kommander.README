@@ -1,0 +1,142 @@
+kommander
+------------------------------------------
+KDE script builder and executor tool
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  cervisia-3.5.8-1
+  kdelibs4-3.5.8-1
+  libxml2-2.6.30-1
+  libxslt-1.1.22-1
+  qt3-3.3.8-3
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  perl-5.8.8-4
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.kde.org/
+
+Canonical download:
+  ftp://ftp.kde.org/pub/kde/stable/3.5.8/src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack kdewebdev-3.5.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kdewebdev-3.5.8-X.cygport all
+
+This will create:
+  /usr/src/kdewebdev-3.5.8-X-src.tar.bz2
+  /usr/src/kdewebdev-3.5.8-X.tar.bz2
+
+  /usr/src/kfilereplace-3.5.8-X.tar.bz2
+  /usr/src/kimagemapeditor-3.5.8-X.tar.bz2
+  /usr/src/klinkstatus-3.5.8-X.tar.bz2
+  /usr/src/kommander-3.5.8-X.tar.bz2
+  /usr/src/kxsldbg-3.5.8-X.tar.bz2
+  /usr/src/quanta-3.5.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(kommander)
+  /usr/bin/cygkommanderplugin-0.dll
+  /usr/bin/cygkommanderwidget-0.dll
+  /usr/bin/cygkommanderwidgets-0.dll
+  /usr/bin/kmdr-editor.exe
+  /usr/bin/kmdr-executor.exe
+  /usr/bin/kmdr-plugins.exe
+  /usr/include/kde/kommanderfactory.h
+  /usr/include/kde/kommanderplugin.h
+  /usr/include/kde/kommanderwidget.h
+  /usr/include/kde/kommander_export.h
+  /usr/lib/libkommanderplugin.dll.a
+  /usr/lib/libkommanderplugin.la
+  /usr/lib/libkommanderwidget.dll.a
+  /usr/lib/libkommanderwidget.la
+  /usr/lib/libkommanderwidgets.dll.a
+  /usr/lib/libkommanderwidgets.la
+  /usr/share/applications/kde/kmdr-editor.desktop
+  /usr/share/applnk/.hidden/kmdr-executor.desktop
+  /usr/share/apps/katepart/syntax/kommander.xml
+  /usr/share/apps/kmdr-editor/pics/kommandersplash.png
+  /usr/share/doc/HTML/en/kommander/basics.docbook
+  /usr/share/doc/HTML/en/kommander/buttongroup.png
+  /usr/share/doc/HTML/en/kommander/checkbox.png
+  /usr/share/doc/HTML/en/kommander/combobox.png
+  /usr/share/doc/HTML/en/kommander/commands.docbook
+  /usr/share/doc/HTML/en/kommander/common
+  /usr/share/doc/HTML/en/kommander/credits.docbook
+  /usr/share/doc/HTML/en/kommander/dcop.docbook
+  /usr/share/doc/HTML/en/kommander/editor.docbook
+  /usr/share/doc/HTML/en/kommander/editor.png
+  /usr/share/doc/HTML/en/kommander/extending.docbook
+  /usr/share/doc/HTML/en/kommander/frame.png
+  /usr/share/doc/HTML/en/kommander/glossary.docbook
+  /usr/share/doc/HTML/en/kommander/groupbox.png
+  /usr/share/doc/HTML/en/kommander/index.cache.bz2
+  /usr/share/doc/HTML/en/kommander/index.docbook
+  /usr/share/doc/HTML/en/kommander/installation.docbook
+  /usr/share/doc/HTML/en/kommander/interface.png
+  /usr/share/doc/HTML/en/kommander/introduction.docbook
+  /usr/share/doc/HTML/en/kommander/kde-common.css
+  /usr/share/doc/HTML/en/kommander/kde-default.css
+  /usr/share/doc/HTML/en/kommander/kde-web.css
+  /usr/share/doc/HTML/en/kommander/label.png
+  /usr/share/doc/HTML/en/kommander/lineedit.png
+  /usr/share/doc/HTML/en/kommander/listbox.png
+  /usr/share/doc/HTML/en/kommander/listview.png
+  /usr/share/doc/HTML/en/kommander/multilineedit.png
+  /usr/share/doc/HTML/en/kommander/pixlabel.png
+  /usr/share/doc/HTML/en/kommander/pushbutton.png
+  /usr/share/doc/HTML/en/kommander/q-and-a.docbook
+  /usr/share/doc/HTML/en/kommander/radiobutton.png
+  /usr/share/doc/HTML/en/kommander/richtextedit.png
+  /usr/share/doc/HTML/en/kommander/shadow.png
+  /usr/share/doc/HTML/en/kommander/specials.docbook
+  /usr/share/doc/HTML/en/kommander/spinbox.png
+  /usr/share/doc/HTML/en/kommander/tabwidget.png
+  /usr/share/doc/HTML/en/kommander/tutorials.docbook
+  /usr/share/doc/HTML/en/kommander/widgets.docbook
+  /usr/share/icons/crystalsvg/128x128/apps/kommander.png
+  /usr/share/icons/crystalsvg/16x16/apps/kommander.png
+  /usr/share/icons/crystalsvg/22x22/apps/kommander.png
+  /usr/share/icons/crystalsvg/32x32/apps/kommander.png
+  /usr/share/icons/crystalsvg/64x64/apps/kommander.png
+  /usr/share/mimelnk/application/x-kommander.desktop
+
+------------------
+
+Port Notes:
+
+----- version 3.5.8-1 -----
+Version bump.
+
+----- version 3.5.7-1 -----
+Version bump.
+
+----- version 3.5.6-1 -----
+Version bump.
+
+----- version 3.5.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
