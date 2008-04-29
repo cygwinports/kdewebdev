@@ -3,53 +3,52 @@ kommander
 KDE script builder and executor tool
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  cervisia-3.5.8-1
-  kdelibs4-3.5.8-1
-  libxml2-2.6.30-1
-  libxslt-1.1.22-1
-  qt3-3.3.8-3
+  cygwin-1.5.25-11
+  cervisia-3.5.9-1
+  kdelibs4-3.5.9-1
+  libxml2-2.6.32-1
+  libxslt-1.1.23-1
+  qt3-3.3.8-4
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.7-1
-  gawk-3.1.5-4
+  cygport-0.3.9-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.2-2
   make-3.81-1
-  perl-5.8.8-4
+  perl-5.10.0-3
   sed-4.1.5-2
 
 Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  ftp://ftp.kde.org/pub/kde/stable/3.5.8/src/
+  ftp://ftp.kde.org/pub/kde/stable/3.5.9/src/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kdewebdev-3.5.8-X-src.tar.bz2
+  unpack kdewebdev-3.5.9-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kdewebdev-3.5.8-X.cygport all
+  cygport ./kdewebdev-3.5.9-X.cygport all
 
 This will create:
-  /usr/src/kdewebdev-3.5.8-X-src.tar.bz2
-  /usr/src/kdewebdev-3.5.8-X.tar.bz2
+  /usr/src/kdewebdev-3.5.9-X-src.tar.bz2
+  /usr/src/kdewebdev-3.5.9-X.tar.bz2
 
-  /usr/src/kfilereplace-3.5.8-X.tar.bz2
-  /usr/src/kimagemapeditor-3.5.8-X.tar.bz2
-  /usr/src/klinkstatus-3.5.8-X.tar.bz2
-  /usr/src/kommander-3.5.8-X.tar.bz2
-  /usr/src/kxsldbg-3.5.8-X.tar.bz2
-  /usr/src/quanta-3.5.8-X.tar.bz2
+  /usr/src/kfilereplace-3.5.9-X.tar.bz2
+  /usr/src/kimagemapeditor-3.5.9-X.tar.bz2
+  /usr/src/klinkstatus-3.5.9-X.tar.bz2
+  /usr/src/kommander-3.5.9-X.tar.bz2
+  /usr/src/kxsldbg-3.5.9-X.tar.bz2
+  /usr/src/quanta-3.5.9-X.tar.bz2
 
 -------------------------------------------
 
@@ -66,6 +65,9 @@ Files included in the binary packages:
   /usr/include/kde/kommanderplugin.h
   /usr/include/kde/kommanderwidget.h
   /usr/include/kde/kommander_export.h
+  /usr/include/kde/specials.h
+  /usr/lib/kde3/cygkommander_part.dll
+  /usr/lib/kde3/libkommander_part.la
   /usr/lib/libkommanderplugin.dll.a
   /usr/lib/libkommanderplugin.la
   /usr/lib/libkommanderwidget.dll.a
@@ -75,6 +77,58 @@ Files included in the binary packages:
   /usr/share/applications/kde/kmdr-editor.desktop
   /usr/share/applnk/.hidden/kmdr-executor.desktop
   /usr/share/apps/katepart/syntax/kommander.xml
+  /usr/share/apps/katepart/syntax/kommander-new.xml
+  /usr/share/apps/kdevappwizard/kommanderplugin.png
+  /usr/share/apps/kdevappwizard/kommanderplugin.tar.gz
+  /usr/share/apps/kdevappwizard/templates/kommanderplugin.kdevtemplate
+  /usr/share/apps/kmdr-editor/editor/current/a1.kmdr
+  /usr/share/apps/kmdr-editor/editor/current/b1.kmdr
+  /usr/share/apps/kmdr-editor/editor/current/editor-poc.kmdr
+  /usr/share/apps/kmdr-editor/editor/current/keyvaluecombo.kmdr
+  /usr/share/apps/kmdr-editor/editor/current/kpartmwframe.kmdr
+  /usr/share/apps/kmdr-editor/editor/current/kpartpart.kmdr
+  /usr/share/apps/kmdr-editor/editor/current/passvariables.kmdr
+  /usr/share/apps/kmdr-editor/editor/current/tableselect.kmdr
+  /usr/share/apps/kmdr-editor/editor/dcoptool-oldparser.kmdr
+  /usr/share/apps/kmdr-editor/editor/examples.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/checkmail.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/ex1.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/execprogram.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/firstform.kmdr.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/form1.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/form2.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/form3.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/form4.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/form5.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/newfile.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/populate.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/resize.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/selectedwidgettext.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/settings.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/simplelist.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/tar.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/tidy.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/widgetgenerator.kmdr
+  /usr/share/apps/kmdr-editor/editor/old/wizard.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/README
+  /usr/share/apps/kmdr-editor/editor/tutorial/append.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/arrays.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/calc.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/cmdline.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/dcop.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/dialogs.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/globals.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/initialize.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/loop.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/picview.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/progressbar.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/settings.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/slots.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/statusbar.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/strings.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/table.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/tree.kmdr
+  /usr/share/apps/kmdr-editor/editor/tutorial/widgets.kmdr
   /usr/share/apps/kmdr-editor/pics/kommandersplash.png
   /usr/share/doc/HTML/en/kommander/basics.docbook
   /usr/share/doc/HTML/en/kommander/buttongroup.png
@@ -120,10 +174,14 @@ Files included in the binary packages:
   /usr/share/icons/crystalsvg/32x32/apps/kommander.png
   /usr/share/icons/crystalsvg/64x64/apps/kommander.png
   /usr/share/mimelnk/application/x-kommander.desktop
+  /usr/share/services/kommander_part.desktop
 
 ------------------
 
 Port Notes:
+
+----- version 3.5.9-1 -----
+Version bump.
 
 ----- version 3.5.8-1 -----
 Version bump.

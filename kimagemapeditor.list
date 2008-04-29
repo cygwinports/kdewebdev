@@ -3,16 +3,6 @@ usr/lib/kde3/*kimagemapeditor.*
 usr/share/applications/kde/kimagemapeditor.desktop
 usr/share/apps/kimagemapeditor/
 usr/share/icons/hicolor/*/apps/kimagemapeditor.png
-usr/share/icons/hicolor/22x22/actions/addpoint.png
-usr/share/icons/hicolor/22x22/actions/arrow.png
-usr/share/icons/hicolor/22x22/actions/circle.png
-usr/share/icons/hicolor/22x22/actions/circle2.png
-usr/share/icons/hicolor/22x22/actions/freehand.png
-usr/share/icons/hicolor/22x22/actions/lower.png
-usr/share/icons/hicolor/22x22/actions/polygon.png
-usr/share/icons/hicolor/22x22/actions/raise.png
-usr/share/icons/hicolor/22x22/actions/rectangle.png
-usr/share/icons/hicolor/22x22/actions/removepoint.png
 usr/share/icons/locolor/*/apps/kimagemapeditor.png
 usr/share/services/kimagemapeditorpart.desktop
 usr/share/doc/Cygwin/kimagemapeditor-*.README

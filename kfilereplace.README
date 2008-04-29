@@ -3,50 +3,49 @@ kfilereplace
 KDE multiple-file search and replace tool
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  kdelibs4-3.5.8-1
-  qt3-3.3.8-3
+  cygwin-1.5.25-11
+  kdelibs4-3.5.9-1
+  qt3-3.3.8-4
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.7-1
-  gawk-3.1.5-4
+  cygport-0.3.9-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.2-2
   make-3.81-1
-  perl-5.8.8-4
+  perl-5.10.0-3
   sed-4.1.5-2
 
 Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  ftp://ftp.kde.org/pub/kde/stable/3.5.8/src/
+  ftp://ftp.kde.org/pub/kde/stable/3.5.9/src/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kdewebdev-3.5.8-X-src.tar.bz2
+  unpack kdewebdev-3.5.9-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kdewebdev-3.5.8-X.cygport all
+  cygport ./kdewebdev-3.5.9-X.cygport all
 
 This will create:
-  /usr/src/kdewebdev-3.5.8-X-src.tar.bz2
-  /usr/src/kdewebdev-3.5.8-X.tar.bz2
+  /usr/src/kdewebdev-3.5.9-X-src.tar.bz2
+  /usr/src/kdewebdev-3.5.9-X.tar.bz2
 
-  /usr/src/kfilereplace-3.5.8-X.tar.bz2
-  /usr/src/kimagemapeditor-3.5.8-X.tar.bz2
-  /usr/src/klinkstatus-3.5.8-X.tar.bz2
-  /usr/src/kommander-3.5.8-X.tar.bz2
-  /usr/src/kxsldbg-3.5.8-X.tar.bz2
-  /usr/src/quanta-3.5.8-X.tar.bz2
+  /usr/src/kfilereplace-3.5.9-X.tar.bz2
+  /usr/src/kimagemapeditor-3.5.9-X.tar.bz2
+  /usr/src/klinkstatus-3.5.9-X.tar.bz2
+  /usr/src/kommander-3.5.9-X.tar.bz2
+  /usr/src/kxsldbg-3.5.9-X.tar.bz2
+  /usr/src/quanta-3.5.9-X.tar.bz2
 
 -------------------------------------------
 
@@ -112,6 +111,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 3.5.9-1 -----
+Version bump.
 
 ----- version 3.5.8-1 -----
 Version bump.

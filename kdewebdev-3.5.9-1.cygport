@@ -1,0 +1,4 @@
+inherit kde3
+
+PKG_NAMES="${PN} kfilereplace kimagemapeditor klinkstatus kommander kxsldbg quanta"
+PKG_CONTENTS[0]="etc/ usr/share/doc/Cygwin/${P}.README usr/share/doc/${P}/"
