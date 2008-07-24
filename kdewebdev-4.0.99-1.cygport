@@ -1,0 +1,4 @@
+inherit kde4
+
+PKG_NAMES="${PN} kfilereplace kimagemapeditor klinkstatus kommander kxsldbg"
+
