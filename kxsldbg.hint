@@ -1,5 +1,5 @@
 category: KDE Devel
-requires: cygwin kdelibs4 libqt3 libxml2 libxslt
+requires: kdelibs4 libqt3 libxml2 libxslt
 external-source: kdewebdev
 sdesc: "KDE XSL debugger"
 ldesc: "KDE web development suite:

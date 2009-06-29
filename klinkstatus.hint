@@ -1,5 +1,5 @@
 category: KDE Web
-requires: cygwin kdelibs4 libqt3
+requires: kdelibs4 libqt3
 external-source: kdewebdev
 sdesc: "KDE link validity checker"
 ldesc: "KDE web development suite:

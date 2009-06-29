@@ -1,5 +1,5 @@
 category: KDE
-requires: cygwin kdelibs4 libqt3
+requires: kdelibs4 libqt3
 external-source: kdewebdev
 sdesc: "KDE multiple-file search and replace tool"
 ldesc: "KDE web development suite:
