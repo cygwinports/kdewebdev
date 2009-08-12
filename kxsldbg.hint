@@ -1,11 +1,5 @@
 category: KDE Devel
-requires: kdelibs4 libqt3 libxml2 libxslt
+requires: libgcc1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libstdc++6 libxml2 libxslt
 external-source: kdewebdev
 sdesc: "KDE XSL debugger"
-ldesc: "KDE web development suite:
-* kfilereplace: multiple-file search and replace tool
-* kimagemapeditor: image map editor
-* klinkstatus: link validity checker
-* kommander: GUI script builder and executor tool
-* kxsldbg: XSL debugger
-* quanta: web page IDE"
+ldesc: "KDE web development suite"

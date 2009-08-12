@@ -1,11 +1,5 @@
-category: KDE Graphics
-requires: kdelibs4 libqt3
+category: KDE Devel
+requires: libgcc1 libkdecore5 libQt3Support4 libQtCore4 libQtGui4 libstdc++6
 external-source: kdewebdev
 sdesc: "KDE HTML image map editor"
-ldesc: "KDE web development suite:
-* kfilereplace: multiple-file search and replace tool
-* kimagemapeditor: image map editor
-* klinkstatus: link validity checker
-* kommander: GUI script builder and executor tool
-* kxsldbg: XSL debugger
-* quanta: web page IDE"
+ldesc: "KDE web development suite"
