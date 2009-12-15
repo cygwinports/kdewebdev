@@ -8,28 +8,32 @@ KDE web development suite:
 * kxsldbg: XSL debugger
 
 Runtime requirements:
-  cygwin-1.7.0-52
-  libgcc1-4.3.2-2
+  cygwin-1.7.0-67
+  libgcc1-4.3.4-3
   libkdecore5-4.2.4-1
+  libkmime4-4.2.4-1
   libkpimidentities4-4.2.4-1
   libmailtransport4-4.2.4-1
-  libQt3Support4-4.5.2-1
-  libQtCore4-4.5.2-1
-  libQtDBus4-4.5.2-1
-  libQtGui4-4.5.2-1
-  libQtNetwork4-4.5.2-1
-  libQtXml4-4.5.2-1
-  libstdc++6-4.3.2-2
+  libQt3Support4-4.5.3-1
+  libQtCore4-4.5.3-1
+  libQtDBus4-4.5.3-1
+  libQtGui4-4.5.3-1
+  libQtNetwork4-4.5.3-1
+  libQtXml4-4.5.3-1
+  libstdc++6-4.3.4-3
+  libtidy0_99_0-20090325-1
+  libxml2-2.7.4-1
+  libxslt-1.1.24-10
   zlib0-1.2.3-10
 
 Build requirements:
 (besides corresponding -devel packages)
   automoc4-0.9.88-10
   binutils-2.19.51-1
-  cmake-2.6.4-10
-  cygport-0.9.8-1
-  gcc4-core-4.3.2-2
-  gcc4-g++-4.3.2-2
+  cmake-2.8.0-10
+  cygport-0.9.10-1
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
   make-3.81-2
   pkg-config-0.23b-10
 
@@ -37,29 +41,32 @@ Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  ftp://ftp.kde.org/pub/kde/stable/4.2.4/
+  ftp://ftp.kde.org/pub/kde/stable/4.3.4/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kdewebdev-4.2.4-X-src.tar.bz2
+  unpack kdewebdev-4.3.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kdewebdev-4.2.4-X.cygport all
+  cygport ./kdewebdev-4.3.4-X.cygport all
 
 This will create:
-  /usr/src/kdewebdev-4.2.4-X-src.tar.bz2
-  /usr/src/kdewebdev-4.2.4-X.tar.bz2
-  /usr/src/kfilereplace-4.2.4-X.tar.bz2
-  /usr/src/kimagemapeditor-4.2.4-X.tar.bz2
-  /usr/src/klinkstatus-4.2.4-X.tar.bz2
-  /usr/src/kommander-4.2.4-X.tar.bz2
-  /usr/src/kxsldbg-4.2.4-X.tar.bz2
+  /usr/src/kdewebdev-4.3.4-X-src.tar.bz2
+  /usr/src/kdewebdev-4.3.4-X.tar.bz2
+  /usr/src/kfilereplace-4.3.4-X.tar.bz2
+  /usr/src/kimagemapeditor-4.3.4-X.tar.bz2
+  /usr/src/klinkstatus-4.3.4-X.tar.bz2
+  /usr/src/kommander-4.3.4-X.tar.bz2
+  /usr/src/kxsldbg-4.3.4-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 4.3.4-1 -----
+Version bump for KDE 4.3.
 
 ----- version 4.2.4-1 -----
 Initial release for Cygwin 1.7.
