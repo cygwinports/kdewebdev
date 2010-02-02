@@ -1,5 +1,5 @@
 category: KDE Web Devel
-requires: libgcc1 libkdecore5 libkpimidentities4 libmailtransport4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 libtidy0_99_0
+requires: libgcc1 libkdecore5 libkpim4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 libtidy0_99_0
 external-source: kdewebdev
 sdesc: "KDE link validity checker"
 ldesc: "KDE web development suite"
