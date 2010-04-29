@@ -8,28 +8,26 @@ KDE web development suite:
 * kxsldbg: XSL debugger
 
 Runtime requirements:
-  cygwin-1.7.1-1
+  cygwin-1.7.5-1
   libgcc1-4.3.4-3
-  libkdecore5-4.3.5-1
-  libkpim4-4.3.5-1
-  libQt3Support4-4.5.3-2
-  libQtCore4-4.5.3-2
-  libQtDBus4-4.5.3-2
-  libQtGui4-4.5.3-2
-  libQtNetwork4-4.5.3-2
-  libQtXml4-4.5.3-2
+  libkdecore5-4.4.2-1
+  libkpim4-4.4.2-1
+  libQt3Support4-4.6.2-1
+  libQtCore4-4.6.2-1
+  libQtDBus4-4.6.2-1
+  libQtGui4-4.6.2-1
+  libQtNetwork4-4.6.2-1
+  libQtXml4-4.6.2-1
   libstdc++6-4.3.4-3
   libtidy0_99_0-20090325-1
-  libxml2-2.7.6-1
-  libxslt-1.1.26-1
   zlib0-1.2.3-10
 
 Build requirements:
 (besides corresponding -devel packages)
   automoc4-0.9.88-10
-  binutils-2.19.51-1
+  binutils-2.20.51-1
   cmake-2.8.0-11
-  cygport-0.9.80-1
+  cygport-0.9.83-1
   gcc4-core-4.3.4-3
   gcc4-g++-4.3.4-3
   make-3.81-2
@@ -39,29 +37,32 @@ Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  ftp://ftp.kde.org/pub/kde/stable/4.3.5/
+  ftp://ftp.kde.org/pub/kde/stable/4.4.2/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kdewebdev-4.3.5-X-src.tar.bz2
+  unpack kdewebdev-4.4.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kdewebdev-4.3.5-X.cygport all
+  cygport ./kdewebdev-4.4.2-X.cygport all
 
 This will create:
-  /usr/src/kdewebdev-4.3.5-X-src.tar.bz2
-  /usr/src/kdewebdev-4.3.5-X.tar.bz2
-  /usr/src/kfilereplace-4.3.5-X.tar.bz2
-  /usr/src/kimagemapeditor-4.3.5-X.tar.bz2
-  /usr/src/klinkstatus-4.3.5-X.tar.bz2
-  /usr/src/kommander-4.3.5-X.tar.bz2
-  /usr/src/kxsldbg-4.3.5-X.tar.bz2
+  /usr/src/kdewebdev-4.4.2-X-src.tar.bz2
+  /usr/src/kdewebdev-4.4.2-X.tar.bz2
+  /usr/src/kfilereplace-4.4.2-X.tar.bz2
+  /usr/src/kimagemapeditor-4.4.2-X.tar.bz2
+  /usr/src/klinkstatus-4.4.2-X.tar.bz2
+  /usr/src/kommander-4.4.2-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 4.4.2-1 -----
+Version bump for KDE 4.4.
+kxsldbg moved to extragear.
 
 ----- version 4.3.5-1 -----
 Version bump.

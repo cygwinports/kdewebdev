@@ -1,5 +1,5 @@
 category: KDE Devel
-requires: kfilereplace kimagemapeditor klinkstatus kommander kxsldbg
+requires: kfilereplace kimagemapeditor klinkstatus kommander
 sdesc: "KDE web development suite (meta-package)"
 ldesc: "KDE web development suite:
 * kfilereplace: multiple-file search and replace tool
