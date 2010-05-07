@@ -10,8 +10,8 @@ KDE web development suite:
 Runtime requirements:
   cygwin-1.7.5-1
   libgcc1-4.3.4-3
-  libkdecore5-4.4.2-1
-  libkpim4-4.4.2-1
+  libkdecore5-4.4.3-1
+  libkpim4-4.4.3-1
   libQt3Support4-4.6.2-1
   libQtCore4-4.6.2-1
   libQtDBus4-4.6.2-1
@@ -37,30 +37,30 @@ Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  ftp://ftp.kde.org/pub/kde/stable/4.4.2/
+  ftp://ftp.kde.org/pub/kde/stable/4.4.3/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kdewebdev-4.4.2-X-src.tar.bz2
+  unpack kdewebdev-4.4.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kdewebdev-4.4.2-X.cygport all
+  cygport ./kdewebdev-4.4.3-X.cygport all
 
 This will create:
-  /usr/src/kdewebdev-4.4.2-X-src.tar.bz2
-  /usr/src/kdewebdev-4.4.2-X.tar.bz2
-  /usr/src/kfilereplace-4.4.2-X.tar.bz2
-  /usr/src/kimagemapeditor-4.4.2-X.tar.bz2
-  /usr/src/klinkstatus-4.4.2-X.tar.bz2
-  /usr/src/kommander-4.4.2-X.tar.bz2
+  /usr/src/kdewebdev-4.4.3-X-src.tar.bz2
+  /usr/src/kdewebdev-4.4.3-X.tar.bz2
+  /usr/src/kfilereplace-4.4.3-X.tar.bz2
+  /usr/src/kimagemapeditor-4.4.3-X.tar.bz2
+  /usr/src/klinkstatus-4.4.3-X.tar.bz2
+  /usr/src/kommander-4.4.3-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
 
------ version 4.4.2-1 -----
+----- version 4.4.3-1 -----
 Version bump for KDE 4.4.
 kxsldbg moved to extragear.
 
