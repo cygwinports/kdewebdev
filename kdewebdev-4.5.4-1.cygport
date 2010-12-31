@@ -1,0 +1,5 @@
+inherit kde4
+
+PKG_NAMES="${PN} kfilereplace kimagemapeditor klinkstatus kommander"
+kdewebdev_CONTENTS="etc/postinstall/ usr/share/doc/${PN}/"
+PKG_IGNORE="usr/lib/libklinkstatus*"

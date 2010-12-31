@@ -1,6 +1,6 @@
 usr/bin/*kommander*
 usr/include/kde4/kommander*
 usr/include/kde4/specials.h
-usr/lib/kde4/lib/libkommander*
+usr/lib/libkommander*
 usr/share/applnk/.hidden/kommander.desktop
 usr/share/doc/kommander/
