@@ -1,0 +1,71 @@
+inherit kde4
+
+NAME="kdewebdev"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="KDE web development suite"
+DESCRIPTION="Part of the KDE web development suite"
+
+PKG_NAMES="${NAME} kfilereplace kimagemapeditor klinkstatus kommander"
+kdewebdev_REQUIRES="kfilereplace kimagemapeditor klinkstatus kommander"
+kdewebdev_CONTENTS="etc/postinstall/ usr/share/doc/${PN}/"
+kfilereplace_SUMMARY="KDE multiple-file search and replace tool"
+kfilereplace_CONTENTS="
+	usr/bin/kfilereplace.exe
+	usr/lib/kde4/libkfilereplacepart.dll
+	usr/share/applications/kde4/kfilereplace.desktop
+	usr/share/dbus-1/interfaces/org.kde.kfilereplace.xml
+	usr/share/doc/HTML/en/kfilereplace/
+	usr/share/doc/kfilereplace/
+	usr/share/icons/hicolor/*/apps/kfilereplace.*
+	usr/share/kde4/apps/kfilereplace/
+	usr/share/kde4/apps/kfilereplacepart/
+	usr/share/kde4/services/kfilereplacepart.desktop
+"
+kimagemapeditor_SUMMARY="KDE HTML image map editor"
+kimagemapeditor_CONTENTS="
+	usr/bin/kimagemapeditor.exe
+	usr/lib/kde4/libkimagemapeditor.dll
+	usr/share/applications/kde4/kimagemapeditor.desktop
+	usr/share/doc/HTML/en/kimagemapeditor/
+	usr/share/doc/kimagemapeditor/
+	usr/share/icons/hicolor/*/actions/addpoint.*
+	usr/share/icons/hicolor/*/actions/arrow.*
+	usr/share/icons/hicolor/*/actions/circle.*
+	usr/share/icons/hicolor/*/actions/circle2.*
+	usr/share/icons/hicolor/*/actions/freehand.*
+	usr/share/icons/hicolor/*/actions/lower.*
+	usr/share/icons/hicolor/*/actions/polygon.*
+	usr/share/icons/hicolor/*/actions/raise.*
+	usr/share/icons/hicolor/*/actions/rectangle.*
+	usr/share/icons/hicolor/*/actions/removepoint.*
+	usr/share/icons/hicolor/*/apps/kimagemapeditor.*
+	usr/share/kde4/apps/kimagemapeditor/
+	usr/share/kde4/services/kimagemapeditorpart.desktop
+"
+klinkstatus_SUMMARY="KDE link validity checker"
+klinkstatus_CONTENTS="
+	usr/bin/cygklinkstatuscommon-4.dll
+	usr/bin/klinkstatus.exe
+	usr/lib/kde4/*klinkstatus*.dll
+	usr/share/applications/kde4/klinkstatus.desktop
+	usr/share/dbus-1/interfaces/org.kde.kdewebdev.klinkstatus.SearchManager.xml
+	usr/share/doc/HTML/en/klinkstatus/
+	usr/share/doc/klinkstatus/
+	usr/share/icons/hicolor/*/apps/klinkstatus.*
+	usr/share/kde4/apps/klinkstatus/
+	usr/share/kde4/apps/klinkstatuspart/
+	usr/share/kde4/config/klinkstatus.knsrc
+	usr/share/kde4/services/*klinkstatus*
+"
+kommander_SUMMARY="KDE script builder and executor tool"
+kommander_CONTENTS="
+	usr/bin/*kommander*
+	usr/include/kde4/kommander*
+	usr/include/kde4/specials.h
+	usr/lib/libkommander*
+	usr/share/applnk/.hidden/kommander.desktop
+	usr/share/doc/kommander/
+"
+PKG_IGNORE="usr/lib/libklinkstatus*"
