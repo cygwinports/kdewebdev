@@ -1,7 +1,7 @@
 inherit kde4
 
 NAME="kdewebdev"
-VERSION=14.12.3
+VERSION=15.04.3
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="KDE web development suite"
@@ -9,9 +9,9 @@ DESCRIPTION="Part of the KDE web development suite"
 
 PKG_NAMES="${NAME} kfilereplace kimagemapeditor klinkstatus kommander"
 kdewebdev_REQUIRES="kfilereplace kimagemapeditor klinkstatus kommander"
-kdewebdev_CONTENTS="etc/postinstall/ usr/share/doc/${PN}/"
 kfilereplace_SUMMARY="KDE multiple-file search and replace tool"
 kfilereplace_CONTENTS="
+	etc/postinstall/
 	usr/bin/kfilereplace.exe
 	usr/lib/kde4/libkfilereplacepart.dll
 	usr/share/applications/kde4/kfilereplace.desktop
@@ -25,6 +25,7 @@ kfilereplace_CONTENTS="
 "
 kimagemapeditor_SUMMARY="KDE HTML image map editor"
 kimagemapeditor_CONTENTS="
+	etc/postinstall/
 	usr/bin/kimagemapeditor.exe
 	usr/lib/kde4/libkimagemapeditor.dll
 	usr/share/applications/kde4/kimagemapeditor.desktop
@@ -46,6 +47,7 @@ kimagemapeditor_CONTENTS="
 "
 klinkstatus_SUMMARY="KDE link validity checker"
 klinkstatus_CONTENTS="
+	etc/postinstall/
 	usr/bin/cygklinkstatuscommon-4.dll
 	usr/bin/klinkstatus.exe
 	usr/lib/kde4/*klinkstatus*.dll
